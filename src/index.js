@@ -120,7 +120,7 @@ class Square extends React.Component {
       });
       let status;
       if(winner) {
-        status= 'Winner: ' + winner;
+        status= 'Winner: ' + winner.winner;
       }
       
       else{
